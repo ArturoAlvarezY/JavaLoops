@@ -1,5 +1,8 @@
 package dev.arturo.models;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Multiply {
 
     Integer number;
@@ -12,9 +15,14 @@ public class Multiply {
         return number;
     }
 
-    public void getingMultiplies(){
+    public List<String> Multiplytable(){
+
+    List<String>table = new ArrayList<>();
         for (int i = 0; i <= 10; i++) {
-            System.out.println(number + "x" + i + "=" + (number*i) );
+           table.add(number + "x" + i + "=" + (number*i)) ;
         }
+        return table;
     }
+
+    
 }
