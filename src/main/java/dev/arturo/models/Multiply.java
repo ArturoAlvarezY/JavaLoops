@@ -21,8 +21,8 @@ public class Multiply {
         for (int i = 0; i <= 10; i++) {
            table.add(number + "x" + i + "=" + (number*i)) ;
         }
+
+        
         return table;
     }
-
-    
 }
