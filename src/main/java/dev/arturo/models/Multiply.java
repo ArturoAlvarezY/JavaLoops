@@ -15,14 +15,12 @@ public class Multiply {
         return number;
     }
 
-    public List<String> Multiplytable(){
+    public List<Integer> Multiplytable(){
 
-    List<String>table = new ArrayList<>();
+    List<Integer>table = new ArrayList<>();
         for (int i = 0; i <= 10; i++) {
-           table.add(number + "x" + i + "=" + (number*i)) ;
+          table.add(number*i);
         }
-
-        
         return table;
     }
 }
